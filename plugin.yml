@@ -1,0 +1,5 @@
+name: VanillaXYZ
+main: jojoe77777\VanillaXYZ\Main
+version: 1.0.0
+api: [3.0.0-ALPHA10, 3.0.0-ALPHA11]
+author: jojoe77777
