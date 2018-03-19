@@ -14,10 +14,9 @@ class Main extends PluginBase implements Listener {
     }
 
     public function onPlayerJoin(PlayerJoinEvent $ev){
-        $player = $ev->getPlayer();
         $pk = new GameRulesChangedPacket();
         $pk->gameRules = ["showcoordinates" => [1, true]];
-        $player->dataPacket($pk);
+        $ev->getPlayer()->dataPacket($pk);
     }
 
 }
